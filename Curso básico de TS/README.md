@@ -1,2 +1,4 @@
-# Conhecimentos em TypeScript.
-Neste repositório, serão guardados alguns códigos adquiridos através de pequenas aulas e cursos sobre TS.
+# By: "Escola Front-End"
+Graças ao conteúdo do canal "Escola Front-End", pude adquirir um pouco de conhecimento em TypeScript.
+
+Link da playlist: [LINK](https://youtu.be/0zrmYOUGcLM "LINK")
