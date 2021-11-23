@@ -2,7 +2,7 @@
 let nome: string = "Vinicius";
 console.log(nome);
 
-// ==> Arrays
+// ==> Arrays de string
 let animais: string[] = ["Cachorro", "Gato", "Papagaio"];
 console.log(animais);
 
@@ -31,4 +31,24 @@ let idade: bigint = 1234567890123456789012345678901234567890n;
 let bigBin: bigint = 0b1010001001001111101111101n;
 let bigOct: bigint = 0o74700456446523012154123454n;
 let bigHex: bigint = 0xFFF00FF00FFABCD1500152n;
- 
+
+// ==> Array de tipos específicos
+// Números
+let notas: number[] = [1, 2, 3, 4, 5];
+let notas2: Array<number> = [1, 2, 3, 4, 5];
+
+// Strings
+let nomes: string[] = ["Leo", "Leo", "Leo"];
+let nomes2: Array<string> = ["Leo", "Leo", "Leo"];
+
+// Array com vários tipos primitivos (Turple) ()
+let alunos: Array<string | number | object | boolean | bigint> = [
+  "Leo", // string
+  1,    // number
+  { nome: "Leo", idade: 20 }, // object
+  true, // bool
+  1234567890123456789012345678901234567890n, // bigingt
+];
+
+// Definindo os tipos de valores fixos em um array, na mesma ordem
+let alunos2:  [number, string, string] = [34, "Leo", "Leo"];
