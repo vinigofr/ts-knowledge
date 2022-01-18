@@ -12,11 +12,12 @@ const desconhecido: unknown = 1;
 // Ex:
 
 // Declarando a variável
-let variável: unknown;
+
+/*let variável: unknown;
 
 // Caso for de nosso desejo aproveitar a variável de cima para criação de outras variáveis de outros tipos, não será possível.
 
 let valor1: boolean = variável;
 let valor2: any = variável;
 let valor3: any[] = variável;
-let valor4: string = variável;
+let valor4: string = variável;*/
